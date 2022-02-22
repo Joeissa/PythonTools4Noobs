@@ -50,5 +50,5 @@ if user == "yes" and passw == "no":
 elif user == "no" and passw == "yes":
     print("hydra","-L",userl,"-p",passwy,Service+"://"+TIP)
 else:
-    print("super duper error , looks like i messed up ")
+    print("this will take for ever , there must be another way !")
     exit()
