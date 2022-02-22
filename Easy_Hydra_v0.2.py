@@ -1,4 +1,4 @@
-# Easy Hydra ver0.1
+# Easy Hydra ver0.2
 # made by Joe Issa
 # Easy Hydra is here to help you with the damn syntax !
 # Currently work only with SSH and FTP
