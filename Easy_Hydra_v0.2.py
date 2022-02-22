@@ -46,9 +46,9 @@ if user == "yes" and passw == "yes":
         exit()
 
 if user == "yes" and passw == "no":
-    print("hydra","-l",usery,"-P",passwl,Service+"//"+TIP)
+    print("hydra","-l",usery,"-P",passwl,Service+"://"+TIP)
 elif user == "no" and passw == "yes":
-    print("hydra","-L",userl,"-p",passwy,Service+"//"+TIP)
+    print("hydra","-L",userl,"-p",passwy,Service+"://"+TIP)
 else:
     print("super duper error , looks like i messed up ")
     exit()
